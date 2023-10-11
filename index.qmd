@@ -19,13 +19,14 @@ editor:
 
 ## Introduction
 
-This paper explores the machine learning method Random Forest. Random Forest is a collection (ensemble of decision trees) and average the outcome for decision.
+This paper explores the machine learning method Random Forest. Random Forest is a collection (ensemble of decision trees) and average the outcome for decision. Random Forest is being used in Alzeheimer's research and this paper helps walk through what the methodology is, how it works, and the application with the dataset. 
 
 
 
+<https://www.ibm.com/topics/random-forest#:~:text=Random%20forest%20is%20a%20commonly,both%20classification%20and%20regression%20problems.>
 
 
-
+The methodology reduces risk of over fitting, create a collection of the decision tree, and average out the results. [@dinh2023].
 
 
 
