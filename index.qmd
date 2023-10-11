@@ -19,6 +19,21 @@ editor:
 
 ## Introduction
 
+This paper explores the machine learning method Random Forest. Random Forest is a collection (ensemble of decision trees) and average the outcome for decision.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This is an introduction to Kernel regression, which is a non-parametric
 estimator that estimates the conditional expectation of two variables
 which is random. The goal of a kernel regression is to discover the
