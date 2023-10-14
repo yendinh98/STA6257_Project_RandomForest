@@ -30,22 +30,30 @@ The methodology reduces risk of over fitting, create a collection of the decisio
 
 ### Understanding Random Forests: From Theory to Practice
 
-This article cover the theory, exploring inner methods of random forest, and limitations of random forest. The articles explained the application of the random forest and machine learning in general. In fields such as science or finance, we aim to derive insights from the past to predict the future. From the theory, the goal is to interpret the model and predict the variable for the future. However, there are limitations. 
+This article cover the theory, exploring inner methods of random forest, and limitations of random forest. The articles explained the application of the random forest and machine learning in general. In fields such as science or finance, we aim to derive insights from the past to predict the future. From the theory, the goal is to interpret the model and predict the variable for the future. However, there are limitations. [@gilles2015]
 
 There is a gap with what machine learning methodology able to produce and what the end user was able to extract. It is as important for end user to trust in the result, understand the process, and interpret the results. Machine learning state of the art methodology create a gap of understanding with the user.
 
 There are 3 limitations with Random Forest:
 
-* Random forest has practical implication that does not result from empirical theory
-* There are lack of sound understanding
-
+* Random forest has practical implication that does not result from empirical theory. Random forest does prove to show the results but lack the backing from theoretical knowledge.
+* There are lacking in application from the random forest from the theory
+* There are difficulty in interpretation the results of the model
 
 Machine learning aim to predict the phenomena to classify, regression without conventional guidance like computer programming. Machine learning method like Raondom Forest helps solve human pose dection for Microsoft Kinect.
  
 
+### Machine Learning: How Decision Trees Work and How They Can Be Combined Into A Random Forest
+
+This  book describes the foundation for Random Forest and its collection of decision tree. 
+[@devon2015]. Random forest is a collection of decision tree that average out the results. The decision tree filter out the data based off the characteristic. You can select if the fruit is based off the color. If the color is orange, then it is an orange, if then it is a banana. Decision tree helps clarify the data based off the choice chosen. 
+
+
 ### Random Forest for genetic association study
 
 This article covers how Random Forest is used by ecologist to study the microorganism. The article highlighted the flexibility of Random Forest. RF can include up to 40000 categories. RF use decision trees and find the best outcome out of the branches of the decision trees.
+
+
 
 
 https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0211558&type=printable
