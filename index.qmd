@@ -28,7 +28,7 @@ The methodology reduces risk of over fitting, create a collection of the decisio
 <https://www.ibm.com/topics/random-forest#:~:text=Random%20forest%20is%20a%20commonly,both%20classification%20and%20regression%20problems.>
 
 
-### Understanding Random Forests: From Theory to Practice
+#### Understanding Random Forests: From Theory to Practice
 
 This article cover the theory, exploring inner methods of random forest, and limitations of random forest. The articles explained the application of the random forest and machine learning in general. In fields such as science or finance, we aim to derive insights from the past to predict the future. From the theory, the goal is to interpret the model and predict the variable for the future. However, there are limitations. [@gilles2015]
 
@@ -43,13 +43,13 @@ There are 3 limitations with Random Forest:
 Machine learning aim to predict the phenomena to classify, regression without conventional guidance like computer programming. Machine learning method like Raondom Forest helps solve human pose dection for Microsoft Kinect.
  
 
-### Machine Learning: How Decision Trees Work and How They Can Be Combined Into A Random Forest
+#### Machine Learning: How Decision Trees Work and How They Can Be Combined Into A Random Forest
 
 This  book describes the foundation for Random Forest and its collection of decision tree. 
 [@devon2015]. Random forest is a collection of decision tree that average out the results. The decision tree filter out the data based off the characteristic. You can select if the fruit is based off the color. If the color is orange, then it is an orange, if then it is a banana. Decision tree helps clarify the data based off the choice chosen. 
 
 
-### Random Forest for genetic association study
+#### Random Forest for genetic association study
 
 This article covers how Random Forest is used by ecologist to study the microorganism. The article highlighted the flexibility of Random Forest. RF can include up to 40000 categories. RF use decision trees and find the best outcome out of the branches of the decision trees.
 
@@ -58,7 +58,7 @@ This article covers how Random Forest is used by ecologist to study the microorg
 
 https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0211558&type=printable
 
-### Random forest prediction of Alzheimer’s disease using pairwise selection from time series data
+#### Random forest prediction of Alzheimer’s disease using pairwise selection from time series data
 
  
 
@@ -73,7 +73,7 @@ The paper states that random forest is easy to train, partition the tree, and ea
 The best performing entry to the Kaggle Neuroimaging Challenge used an ensemble of random forest models to achieve an accuracy of 61.9% in a blind external validation dataset. RF outperform SVM and linear mixed effects. A limitation of the
 approach is the direct comparison with just two methods both with a small number of predictors.
 
-### How random is the random forest? Random forest algorithm on the service of structural imaging biomarkers for Alzheimer's disease
+#### How random is the random forest? Random forest algorithm on the service of structural imaging biomarkers for Alzheimer's disease
 
 The author highlighted the robustness to overfitting, handling outliers, handling of non-linear data to predict conversion from MCI to AD. This resulted in the first place in the international challenge for automated prediction of MCI from MRI data. RF produced the best robustness to manipulate non-linear data, easily tuned, and process in parallel. RF can reduce the variable space by ranking the value of the feature.
 
@@ -84,8 +84,19 @@ Repeat steps 1 to 2 until either a maximum tree depth l has been reached or the 
 Repeat steps 1 to 3 for each tree k in the forest.
 Vote or aggregate on the output of each tree in the forest."
 
+#### A random forest guided tour Gérard Biau & Erwan Scornet
 
+This article also shows a beginner guide to the random forest as a way of classifying data by Breiman in 2001
 
+#### Landslide susceptibility estimation by random forest techniques: sensitivity and scaling issue
+
+Landslide susceptibility mapping (LSM) survey scale of landslide condition, the resolution of the mapping unit. They predict the probability of landslides occurring in an area without taking into consideration the past occurrence of landslides. The method used in this article is Random Forest. There are three reasons for this method over another. First, we do not suffer from the classification problem of decision trees. Random forest is a machine learning method.
+This article examines the landslide susceptibility LVM. The process focuses not on comparing the model, but on the validity of the methodology. You first focus the machine learning method of the Random Forest. This is a Bayesian method based on the ensemble of trees and the collection of the results. Landslide cause financial damage, life at risk, and the blockage of roads and land usage. The results shows that by combining the two method instead of relying on hermologist is better than traditional method. The original method relies on the expertise of the hermologist, but lacks consistency. Three separate teams of hermologist produced three different mapping on the same area. This article sums up that combining the two resources is the best way moving forward for creating LVM.
+
+#### Landslide susceptibility assessment in Lianhua county (China): A comparison between a random forest mining technique and bivariate and multivariate statistical methods.
+
+This article compares the accuracy of prediction of landslide using Lvm, random forest, and linear model. Landslides are a common phenomenon in China resulting in losses in billions of yen yearly. The research involves the determination of the correct predictors.The predictors can be the slope of the hill, the soil sample, the rain density, and the proximity to the river.
+The study uses a sample of 120 slides (70%) for model building and 30% for testing the accuracy of the model. The results show that random forest shows strong prediction despite the “noisy” variable. Variables that might not predict the outcome of a landslide. Results show RF accurately predicts 75%. RF provides accuracy despite high variance.
 
 ## Methods
 
