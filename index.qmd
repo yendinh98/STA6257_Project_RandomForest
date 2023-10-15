@@ -19,20 +19,14 @@ editor:
 
 ## Introduction
 
-This paper explores the machine learning method Random Forest. Random Forest is a collection (ensemble of decision trees) and average the outcome for decision. Random Forest is being used in Alzheimer's research and this paper helps walk through what the methodology is, how it works, and the application with the data set. 
-
-Here are the current application from the peer review journals:
-
-The methodology reduces risk of over fitting, create a collection of the decision tree, and average out the results.
-
-<https://www.ibm.com/topics/random-forest#:~:text=Random%20forest%20is%20a%20commonly,both%20classification%20and%20regression%20problems.>
+This paper explores the machine learning method Random Forest. Random Forest is a collection (ensemble of decision trees) and average the outcome for decision. Random Forest is being used in Alzheimer's research and this paper helps walk through what the methodology is, how it works, and the application with the data set. The methodology reduces risk of over fitting, create a collection of the decision tree, and average out the results.
 
 
 #### Understanding Random Forests: From Theory to Practice
 
-This article cover the theory, exploring inner methods of random forest, and limitations of random forest. The articles explained the application of the random forest and machine learning in general. In fields such as science or finance, we aim to derive insights from the past to predict the future. From the theory, the goal is to interpret the model and predict the variable for the future. However, there are limitations. [@gilles2015]
+This article covers the theory and explores the inner methods and limitations of random forest. The articles explained the application of the random forest and machine learning in general. In fields such as science or finance, machine learning aim to derive insights from the past to predict the future. From the theory, the goal is to interpret the model and predict the variable for the future. However, there are limitations. [@gilles2015]
 
-There is a gap with what machine learning methodology able to produce and what the end user was able to extract. It is as important for end user to trust in the result, understand the process, and interpret the results. Machine learning state of the art methodology create a gap of understanding with the user.
+There is a gap with what machine learning methodology able to produce and what the end user was able to extract. It is as important for end user to trust in the result, understand the process, and interpret the results. Machine learning state of the art methodology create a gap of understanding with the interpreter.
 
 There are 3 limitations with Random Forest:
 
@@ -40,49 +34,37 @@ There are 3 limitations with Random Forest:
 * There are lacking in application from the random forest from the theory
 * There are difficulty in interpretation the results of the model
 
-Machine learning aim to predict the phenomena to classify, regression without conventional guidance like computer programming. Machine learning method like Raondom Forest helps solve human pose dection for Microsoft Kinect.
+Machine learning aim to predict the phenomena to classify, regression without conventional guidance like computer programming. Machine learning method like Random Forest helps solve human pose detection for Microsoft Kinect.
  
 
 #### Machine Learning: How Decision Trees Work and How They Can Be Combined Into A Random Forest
 
-This  book describes the foundation for Random Forest and its collection of decision tree. 
-[@devon2015]. Random forest is a collection of decision tree that average out the results. The decision tree filter out the data based off the characteristic. You can select if the fruit is based off the color. If the color is orange, then it is an orange, if then it is a banana. Decision tree helps clarify the data based off the choice chosen. 
+This  book describes the foundation for Random Forest and its collection of decision trees. 
+[@devon2015]. Random forest is a collection of decision tree that filter out the results based off the features. The decision tree filter out the data based off the characteristic. For example you can select the fruit based off the color. If the color is orange, then it is an orange, if not then it is a banana. Decision tree helps clarify the data based off the choice chosen. The classification can generate error if there are more than two fruits.  
 
-Machine learning helps predict the trend of the existing data based off the existing data set. Machine learning learns from the existing data with the current results. To understand Random Forest, you need to understand Decision tree. Decision tree helps classify the data based off the existing variable. The decision tree categorize the data. The determination of the fruit can be based off color. If the color is orange, then it is orange, if no, then it is a banana. The clasification can generate error if there are more than two fruits. 
+Machine learning helps predict the trend of the existing data based off the existing data set. Machine learning learns from the existing data with the current results. To understand Random Forest, you need to understand Decision tree. Decision tree helps classify the data based off the existing variable.
+
 #### Random Forest for genetic association study
 
 This article covers how Random Forest is used by ecologist to study the microorganism. The article highlighted the flexibility of Random Forest. RF can include up to 40000 categories. RF use decision trees and find the best outcome out of the branches of the decision trees.
-
-
-
 
 https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0211558&type=printable
 
 #### Random forest prediction of Alzheimer’s disease using pairwise selection from time series data
 
- 
+The paper explores random forest and prediction of Alzheimer's disease (AD). The paper used Random Forest to predict conversion from MCI (mild cognitive impairment) to AD through pairwise comparison of time series data. The author used random forest on time series with 4 data points. Number of trees was 60. Random forest is a collection of decision tree put in set of rectangles to minimize loss function. Process stop until a stopping criterion.
 
-The paper explores random forest and prediction of Alzheimer's disease (AD). The paper used Random Forest to predict conversion from MCI (mild cognitive impairment) to AD through pairwise comparison of time series data. The author used random forest on time series with 4 data points. Number of trees was 60. 
+This paper explores the prediction of the AD. Early detection of AD is important for medicine therapy and random forest with time series help predict the AD. The paper states that random forest is easy to train, partition the tree, and easy to navigate according to the journal. This results in 90% accuracy for random forest method classification of neuroimage data of AD vs HC (healthy control).
 
-Random forest is a collection of decision tree put in set of rectangles to minimize loss function. Process stop until a stopping criterion.
-
-This paper explores the prediction of the AD. Early detection of AD is important for medicine therapy and random forest with time series help predict the AD. 
-
-The paper states that random forest is easy to train, partition the tree, and easy to navigate according to the journal. This results in 90% accuracy for random forest method classification of neuroimage data of AD vs HC (healthy control).
-
-The best performing entry to the Kaggle Neuroimaging Challenge used an ensemble of random forest models to achieve an accuracy of 61.9% in a blind external validation dataset. RF outperform SVM and linear mixed effects. A limitation of the
-approach is the direct comparison with just two methods both with a small number of predictors.
+The best performing entry to the Kaggle Neuroimaging Challenge used an ensemble of random forest models to achieve an accuracy of 61.9% in a blind external validation dataset. RF outperform SVM and linear mixed effects. A limitation of the approach is the direct comparison with just two methods both with a small number of predictors.
 
 #### How random is the random forest? Random forest algorithm on the service of structural imaging biomarkers for Alzheimer's disease
 
-The author highlighted the robustness to overfitting, handling outliers, handling of non-linear data to predict conversion from MCI to AD. This resulted in the first place in the international challenge for automated prediction of MCI from MRI data. RF produced the best robustness to manipulate non-linear data, easily tuned, and process in parallel. RF can reduce the variable space by ranking the value of the feature.
+The author highlighted the robustness to over fitting, handling outliers, handling of non-linear data to predict conversion from MCI to AD. This resulted in the first place in the international challenge for automated prediction of MCI from MRI data. RF produced the best robustness to manipulate non-linear data, easily tuned, and process in parallel. RF can reduce the variable space by ranking the value of the feature.
 
 The author also explain how random forest training procedure:
-"At the current node, randomly select p features from available features D. The number of features p is usually much smaller than the total number of features D.
-Compute the best split point for tree k using the specified splitting metric (Gini Impurity, Information Gain, etc.) and split the current node into daughter nodes and reduce the number of features D from this node on.
-Repeat steps 1 to 2 until either a maximum tree depth l has been reached or the splitting metric reaches some extrema.
-Repeat steps 1 to 3 for each tree k in the forest.
-Vote or aggregate on the output of each tree in the forest."
+"At the current node, randomly select p features from available features D. The number of features p is usually much smaller than the total number of features D. Compute the best split point for tree k using the specified splitting metric (Gini Impurity, Information Gain, etc.) and split the current node into daughter nodes and reduce the number of features D from this node on. Repeat steps 1 to 2 until either a maximum tree depth l has been reached or the splitting metric reaches some extrema.
+Repeat steps 1 to 3 for each tree k in the forest. Vote or aggregate on the output of each tree in the forest."
 
 #### A random forest guided tour Gérard Biau & Erwan Scornet
 
