@@ -23,7 +23,7 @@ This paper explores the machine learning method Random Forest. Random Forest is 
 
 Here are the current application from the peer review journals:
 
-The methodology reduces risk of over fitting, create a collection of the decision tree, and average out the results. [@dinh2023].
+The methodology reduces risk of over fitting, create a collection of the decision tree, and average out the results.
 
 <https://www.ibm.com/topics/random-forest#:~:text=Random%20forest%20is%20a%20commonly,both%20classification%20and%20regression%20problems.>
 
