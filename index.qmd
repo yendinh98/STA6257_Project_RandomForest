@@ -48,7 +48,7 @@ Machine learning aim to predict the phenomena to classify, regression without co
 This  book describes the foundation for Random Forest and its collection of decision tree. 
 [@devon2015]. Random forest is a collection of decision tree that average out the results. The decision tree filter out the data based off the characteristic. You can select if the fruit is based off the color. If the color is orange, then it is an orange, if then it is a banana. Decision tree helps clarify the data based off the choice chosen. 
 
-
+Machine learning helps predict the trend of the existing data based off the existing data set. Machine learning learns from the existing data with the current results. To understand Random Forest, you need to understand Decision tree. Decision tree helps classify the data based off the existing variable. The decision tree categorize the data. The determination of the fruit can be based off color. If the color is orange, then it is orange, if no, then it is a banana. The clasification can generate error if there are more than two fruits. 
 #### Random Forest for genetic association study
 
 This article covers how Random Forest is used by ecologist to study the microorganism. The article highlighted the flexibility of Random Forest. RF can include up to 40000 categories. RF use decision trees and find the best outcome out of the branches of the decision trees.
