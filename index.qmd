@@ -19,22 +19,21 @@ editor:
 
 ## Introduction
 
-This paper explores the machine learning method Random Forest. Random Forest is a collection (ensemble of decision trees) and average the outcome for decision. Random Forest is being used in Alzheimer's research and this paper helps walk through what the methodology is, how it works, and the application with the data set. The methodology reduces risk of over fitting, create a collection of the decision tree, and average out the results.
+This paper explores the machine learning method Random Forest. Random Forest is a collection (ensemble of decision trees) and average the outcome for decision. Random Forest is used in various fields such as finance, healthcare such as Alzheimer's research, and this paper helps walk through what the methodology is, how it works, and the application using existing data set. The methodology reduces risk of over fitting, create a collection of the decision trees, and average out the results.
 
-
+Machine learning aim to predict the phenomena to classify, regression without conventional guidance like computer programming. Machine learning method like Random Forest helps solve human pose detection for Microsoft Kinect. [@gilles2015]
 #### Understanding Random Forests: From Theory to Practice
 
-This article covers the theory and explores the inner methods and limitations of random forest. The articles explained the application of the random forest and machine learning in general. In fields such as science or finance, machine learning aim to derive insights from the past to predict the future. From the theory, the goal is to interpret the model and predict the variable for the future. However, there are limitations. [@gilles2015]
+This article covers the theory and explores the inner methods and limitations of random forest. The articles explained the application of the random forest and machine learning in general. In fields such as science or finance, machine learning aim to derive insights from the past to predict the future. From the theory, the goal is to interpret the model and predict the phenomenon for the future. However, there are limitations with Random Forest. [@gilles2015]
 
-There is a gap with what machine learning methodology able to produce and what the end user was able to extract. It is as important for end user to trust in the result, understand the process, and interpret the results. Machine learning state of the art methodology create a gap of understanding with the interpreter.
+There is a gap with what machine learning methodology able to produce and what the end user was able to extract. It is as important for end user to trust in the result, understand the process, and interpret the results. [@gilles2015]. Machine learning state of the art methodology create a gap of understanding with the interpreter.
 
 There are 3 limitations with Random Forest:
 
-* Random forest has practical implication that does not result from empirical theory. Random forest does prove to show the results but lack the backing from theoretical knowledge.
+* Random forest has practical implication that does not result from empirical theory. Random forest does prove to show concrete results, but lack the backing from theoretical knowledge.
 * There are lacking in application from the random forest from the theory
 * There are difficulty in interpretation the results of the model
 
-Machine learning aim to predict the phenomena to classify, regression without conventional guidance like computer programming. Machine learning method like Random Forest helps solve human pose detection for Microsoft Kinect. [@gilles2015]
 
 #### A random forest guided tour Gérard Biau & Erwan Scornet
 
@@ -73,6 +72,7 @@ Repeat steps 1 to 3 for each tree k in the forest. Vote or aggregate on the outp
 #### Landslide susceptibility estimation by random forest techniques: sensitivity and scaling issue
 
 Landslide susceptibility mapping (LSM) survey scale of landslide condition, the resolution of the mapping unit. They predict the probability of landslides occurring in an area without taking into consideration the past occurrence of landslides. The method used in this article is Random Forest. There are three reasons for this method over another. First, we do not suffer from the classification problem of decision trees. Random forest is a machine learning method.
+
 This article examines the landslide susceptibility LVM. The process focuses not on comparing the model, but on the validity of the methodology. You first focus the machine learning method of the Random Forest. This is a Bayesian method based on the ensemble of trees and the collection of the results. Landslide cause financial damage, life at risk, and the blockage of roads and land usage. The results shows that by combining the two method instead of relying on hermologist is better than traditional method. The original method relies on the expertise of the hermologist, but lacks consistency. Three separate teams of hermologist produced three different mapping on the same area. This article sums up that combining the two resources is the best way moving forward for creating LVM.
 
 #### Landslide susceptibility assessment in Lianhua county (China): A comparison between a random forest mining technique and bivariate and multivariate statistical methods.
